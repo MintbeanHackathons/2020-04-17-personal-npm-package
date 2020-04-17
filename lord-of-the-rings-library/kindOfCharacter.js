@@ -9,5 +9,3 @@ const kindOfCharacter = firstName => {
   }
   return `${firstName} is of kind ${kindOfChar}.`;
 };
-
-console.log(kindOfCharacter("Legolas"));

@@ -9,5 +9,3 @@ const weaponOfCharacter = firstName => {
   const weaponOfChar = infoOfCharacter["weapon"];
   return `${weaponOfChar} is the weapon used by ${firstName}.`;
 };
-
-console.log(weaponOfCharacter("Gollvdsvum"));
