@@ -1,0 +1,17 @@
+{
+  "name": "hackathon-matthewmaeda",
+  "version": "1.0.1",
+  "description": "$25 CAD Amazon gift card + bragging rights.",
+  "main": "index.html",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewMaeda/2020-04-17-personal-npm-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewMaeda/2020-04-17-personal-npm-package/issues"
+  },
+  "homepage": "https://github.com/MatthewMaeda/2020-04-17-personal-npm-package#readme"
+}

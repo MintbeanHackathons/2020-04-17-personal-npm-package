@@ -1,5 +1,5 @@
 # Today's Objective: A personal NPM library
-
+## Matthew Maeda
 ## Prize
 
 $25 CAD Amazon gift card + bragging rights.
