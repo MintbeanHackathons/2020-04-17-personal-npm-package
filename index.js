@@ -13,7 +13,7 @@ const addOne = (num) => num + 1
  */
 const leftPad = (str, len, cha = ' ') => {
   if (str.length > len) throw new Error('cannot pad, argument is too long')
-  return cha.repeat(str.toString().length - len) + str
+  return cha.repeat(len - str.toString().length) + str
 }
 
 module.exports = { addOne, leftPad }
