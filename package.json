@@ -1,0 +1,22 @@
+{
+  "name": "aa-first-pkg",
+  "version": "1.0.0",
+  "description": "My personal NPM library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaranda82/2020-04-17-personal-npm-package.git"
+  },
+  "keywords": [
+    "npm, aa-first-pkg, aaranda1, package"
+  ],
+  "author": "Alex Aranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaranda82/2020-04-17-personal-npm-package/issues"
+  },
+  "homepage": "https://github.com/aaranda82/2020-04-17-personal-npm-package#readme"
+}
