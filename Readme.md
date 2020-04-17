@@ -1,4 +1,4 @@
-# Today's Objective: A personal NPM library
+# Today's Objective: A personal NPM Utility library
 
 ## Prize
 
