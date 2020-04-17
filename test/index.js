@@ -27,4 +27,23 @@ const anotherTest = [
 	],
 ];
 
-testFunc(anotherTest);
+// testFunc(anotherTest);
+
+//calling it matrix since it's for only multidimensional arrays
+//choosing old ES5 function call for scoping
+function matrixUtils(array) {
+	const createMatrix = (sizeX, sizeY, value) => {
+		const matrix = [];
+		for (let row = 0; row < sizeX; row++) {
+			matrix[row] = [];
+			for (let column = 0; column < sizeY; column++) {
+				matrix[row][column] = value;
+			}
+		}
+		return matrix;
+	}; // end of createMatrix function
+
+	return { createMatrix: createMatrix };
+}
+
+console.log(matrixUtils().createMatrix(5, 5));
