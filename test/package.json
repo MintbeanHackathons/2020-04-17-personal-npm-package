@@ -1,0 +1,19 @@
+{
+  "name": "2020-04-17-personal-npm-package",
+  "version": "1.0.0",
+  "description": "hackathon NPM package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambernaldamasco/2020-04-17-personal-npm-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambernaldamasco/2020-04-17-personal-npm-package/issues"
+  },
+  "homepage": "https://github.com/sambernaldamasco/2020-04-17-personal-npm-package#readme"
+}
