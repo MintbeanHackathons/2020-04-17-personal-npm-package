@@ -1,6 +1,5 @@
 module.exports.makeArrayLowercase = stringArray => {
-  const lowered = stringArray.map(item=>item.toLowerCase())  
-  return lowered
+  return stringArray.map(item=>item.toLowerCase())
 }
 
 module.exports.addArrays = (arr1, arr2) => {
