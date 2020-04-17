@@ -2,7 +2,11 @@
     "name": "random-leetcode-algorithms",
     "version": "1.0.0",
     "description": "Sample of Leetcode algorithms I solved at one time or another using JS",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "tsc",
         "watch-ts": "tsc -w",
@@ -14,7 +18,7 @@
         "url": "git+https://github.com/montrealist/2020-04-17-personal-npm-package.git"
     },
     "keywords": [],
-    "author": "",
+    "author": "montrealist",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/montrealist/2020-04-17-personal-npm-package/issues"
