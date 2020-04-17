@@ -1,0 +1,23 @@
+{
+  "name": "tiny-pagination",
+  "version": "1.0.0",
+  "description": "Add pagination to data array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhou0160/2020-04-17-personal-npm-package.git"
+  },
+  "keywords": [
+    "Tiny",
+    "Pagination"
+  ],
+  "author": "Yiyao Zhou (Amber)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhou0160/2020-04-17-personal-npm-package/issues"
+  },
+  "homepage": "https://github.com/zhou0160/2020-04-17-personal-npm-package#readme"
+}
