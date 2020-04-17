@@ -7,6 +7,14 @@
     "react": "^15.5.4"
   },
   "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "dotenv-webpack": "^1.7.0",
+    "html-webpack-plugin": "^4.2.0",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2",
     "react": "^15.5.4",
     "react-router-dom": "^5.1.2",
     "webpack": "^2.6.1"
