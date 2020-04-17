@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/AndrewZaw/2020-04-17-personal-npm-package/issues"
   },
-  "homepage": "https://github.com/AndrewZaw/2020-04-17-personal-npm-package#readme"
+  "homepage": "https://github.com/AndrewZaw/2020-04-17-personal-npm-package#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^5.7.7"
+  }
 }
