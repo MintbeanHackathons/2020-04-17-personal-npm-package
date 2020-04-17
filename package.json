@@ -1,6 +1,6 @@
 {
   "name": "@suhy/vanilla-js-util",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "useful functions for vanillaJS app building",
   "license": "MIT",
   "repository": "shjang7/2020-04-17-personal-npm-package",
