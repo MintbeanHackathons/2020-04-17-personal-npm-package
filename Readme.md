@@ -5,7 +5,15 @@
 Created in April 2020 in participation of a Mintbean Hackathon.
 [github](https://github.com/jsmney/2020-04-17-personal-npm-package)
 
----
+## Install
+```$ npm install @jsmney/minitools```
+
+## Usage
+```javascript
+const mini = require('@jsmney/minitools')
+
+mini.addOne(3) // 4
+```
 
 ## Objective
 

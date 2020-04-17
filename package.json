@@ -1,4 +1,13 @@
 {
   "name": "@jsmney/minitools",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "Library of helper functions in JavaScript",
+  "license": "MIT",
+  "repository": "jsmney/2020-04-17-personal-npm-package",
+  "main": "index.js",
+  "keywords": [
+    "jsmney",
+    "minitools",
+    "helper"
+  ]
 }
