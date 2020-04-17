@@ -10,11 +10,11 @@ Participation careerhack hackathon (2020-04-17)
 
 **Install it :**
 
-npm install @fredborder/lord-of-the-rings-library
+npm install lord-of-the-rings-library
 
 **Require it :**
 
-const \_ = require('@fredbordel/lord-of-the-rings-library');
+const \_ = require('lord-of-the-rings-library');
 
 ## Documentation
 
