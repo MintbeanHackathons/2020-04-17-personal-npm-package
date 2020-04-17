@@ -1,0 +1,19 @@
+{
+  "name": "2020-04-17-personal-npm-package",
+  "version": "1.0.0",
+  "description": "A small utility testing, uploading to NPM, and using a homemade package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhc822/2020-04-17-personal-npm-package.git"
+  },
+  "author": "Ryan H. Cunningham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhc822/2020-04-17-personal-npm-package/issues"
+  },
+  "homepage": "https://github.com/rhc822/2020-04-17-personal-npm-package#readme"
+}
