@@ -1,25 +1,3 @@
-const testFunc = (array, func = (element) => console.log(element)) => {
-	for (let x = 0; x < array.length; x++) {
-		for (let y = 0; y < array[x].length; y++) {
-			func(array[x][y]);
-		}
-	}
-};
-
-const testArray = [
-	[1, 2, 3],
-	[4, 5, 6],
-	[7, 8, 9],
-];
-
-const anotherTest = {
-	one: { one: 1, two: 2, three: 3 },
-	two: { one: 1, two: 2, three: 3 },
-	three: { one: 1, two: 2, three: 3 },
-};
-
-// testFunc(anotherTest);
-
 //calling it matrix since it's for only multidimensional arrays
 //choosing old ES5 function call for scoping
 //has 3 parameters
@@ -80,6 +58,20 @@ function matrixUtils() {
 	};
 }
 
+///tests
+
+const testArray = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+];
+
+const anotherTest = {
+	one: { one: 1, two: 2, three: 3 },
+	two: { one: 1, two: 2, three: 3 },
+	three: { one: 1, two: 2, three: 3 },
+};
+
 const test = () => {
 	const newArray = [];
 	matrixUtils().loopMatrix(testArray, (element) => {
@@ -90,13 +82,30 @@ const test = () => {
 
 // let test2 = test();
 
-// let clone = matrixUtils().cloneMatrix(test2);
+let clone = matrixUtils().cloneMatrix(anotherTest);
+
+// console.log(clone);
 
 // console.log(!Array.isArray(anotherTest) && typeof anotherTest === 'object');
 
 // console.log(Array.isArray(test2));
 
-matrixUtils().loopMatrix(anotherTest);
+// matrixUtils().loopMatrix('string');
 // matrixUtils().loopMatrix(testArray);
 
 // console.log(anotherTest);
+
+const arrayFreq = [
+	'several',
+	'strings',
+	'that',
+	'are',
+	'the',
+	'same',
+	'several',
+	'times',
+];
+
+const mostFreq = matrixUtils().mostFrequentValue(arrayFreq);
+
+console.log(mostFreq);
