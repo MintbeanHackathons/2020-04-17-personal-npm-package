@@ -1,13 +1,16 @@
-#matrixUtils
+# matrixUtils
+
 [@definitelynotsam/matrix-utils](https://www.npmjs.com/package/@definitelynotsam/matrix-utils)
 
-##Objective
+## Objective
+
 Javascript library with methods to loop through, create and clone multidimensional arrays
 
-##Install
+## Install
+
 `npm install @definitelynotsam/matrix-utils`
 
-##How to use
+## How to use
 
 ```js
 const matrixUtils = require('@definitelynotsam/matrix-utils');
