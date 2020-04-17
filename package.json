@@ -1,6 +1,6 @@
 {
   "name": "@idkjay/personal",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Don't leave your messages unread! Wrap them with the eyes emoji.",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,18 @@
   "bugs": {
     "url": "https://github.com/idkjay/2020-04-17-personal-npm-package/issues"
   },
-  "homepage": "https://github.com/idkjay/2020-04-17-personal-npm-package#readme"
+  "homepage": "https://github.com/idkjay/2020-04-17-personal-npm-package#readme",
+  "dependencies": {
+    "bulma": "^0.8.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hooks": "^1.0.1",
+    "react-router-dom": "^5.1.2",
+    "unsplash": "^4.2.0",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "jest": "^25.3.0"
+  }
 }
