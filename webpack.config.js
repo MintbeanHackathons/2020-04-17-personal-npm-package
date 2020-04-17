@@ -26,6 +26,8 @@ module.exports = {
 				test: /\.js$/,
 				loader: "source-map-loader",
 			},
+			{ test: /\.css$/, use: "css-loader" },
+			{ test: /\.png/, type: "asset/resource" },
 		],
 	},
 
@@ -36,5 +38,8 @@ module.exports = {
 	externals: {
 		react: "React",
 		"react-dom": "ReactDOM",
+	},
+	experiments: {
+		asset: true,
 	},
 };

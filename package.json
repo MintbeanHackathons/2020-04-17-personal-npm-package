@@ -2,7 +2,7 @@
 	"name": "myfooter",
 	"version": "0.0.3",
 	"description": "A pretty footer",
-	"main": "lib/index.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "rm -rf ./dist && tsc",
@@ -21,6 +21,7 @@
 	"devDependencies": {
 		"@types/react": "^16.9.34",
 		"@types/react-dom": "^16.9.6",
+		"css-loader": "^3.5.2",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
 		"source-map-loader": "^0.2.4",
