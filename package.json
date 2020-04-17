@@ -1,7 +1,7 @@
 {
   "name": "react-lists-and-details",
   "version": "1.0.0",
-  "description": "easily add react List and Detail components to your react project",
+  "description": "easily add react List and ListItem components to your react project",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^15.5.4"
