@@ -1,0 +1,33 @@
+{
+    "name": "@chakrasandwich/react-shocked-pikachu",
+    "version": "1.0.2",
+    "description": "Inserts a pikachu ascii art into your react component",
+    "license": "MIT",
+    "repository": "nmestrada",
+    "main": "build/index",
+    "scripts": {
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "keywords": [
+        "pikachu",
+        "npm",
+        "package",
+        "chakrasandwich"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.5",
+        "@babel/preset-react": "^7.9.4",
+        "babel-cli": "^6.26.0",
+        "babel-loader": "^8.1.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.7.0",
+        "path": "^0.12.7",
+        "react": "^16.13.1",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    }
+}
