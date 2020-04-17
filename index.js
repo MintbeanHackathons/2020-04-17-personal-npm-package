@@ -1,4 +1,4 @@
-const randomStringGenerator = require("./functions/randomStringGenerator");
+const randomStringGenerator = require("./randomStringGenerator");
 
 module.exports = {
   randomStringGenerator,
