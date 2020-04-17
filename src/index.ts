@@ -1,8 +1,8 @@
 export class Algorithms {
-    test(s: string = 'unknown person'): string {
+    public static test(s: string = 'unknown person'): string {
         return `Hello, ${s}`;
     }
-    anotherTest(s: string = 'unknown person'): string {
+    public static anotherTest(s: string = 'unknown person'): string {
         return `Hello again, ${s}`;
     }
 }
