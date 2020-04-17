@@ -1,0 +1,19 @@
+{
+  "name": "idkjay",
+  "version": "1.0.0",
+  "description": "Personal NPM package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idkjay/2020-04-17-personal-npm-package.git"
+  },
+  "author": "Jordan Chu <jordanchu95@gmail.com> (http://jordanchu.xyz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idkjay/2020-04-17-personal-npm-package/issues"
+  },
+  "homepage": "https://github.com/idkjay/2020-04-17-personal-npm-package#readme"
+}
