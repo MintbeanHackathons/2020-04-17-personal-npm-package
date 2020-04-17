@@ -1,5 +1,5 @@
 {
-  "name": "@astaton/console-logger",
+  "name": "astaton-console-logger",
   "version": "0.1.0",
   "private": false
 }
