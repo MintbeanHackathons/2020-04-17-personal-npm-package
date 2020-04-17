@@ -1,29 +1,25 @@
 # Jasmine's personal NPM Utility library
 
-![npm(scoped)](https://img.shields.io/npm/v/@jsmney/minitools)
+![npm(scoped)](https://img.shields.io/npm/v/@jsmney/minitools)[![install size](https://packagephobia.now.sh/badge?p=@jsmney/minitools)](https://packagephobia.now.sh/result?p=@jsmney/minitools)
 
 Created in April 2020 in participation of a Mintbean Hackathon.
 [github](https://github.com/jsmney/2020-04-17-personal-npm-package)
 
 ## Install
-```$ npm install @jsmney/minitools```
+
+`$ npm install @jsmney/minitools`
 
 ## Usage
+
 ```javascript
 const mini = require('@jsmney/minitools')
 
 mini.addOne(3) // 4
 ```
 
-## Objective
+## Example execution on RunKit
 
-Today's objective is to build and publish a personal NPM package.
-
-As developers learn and grow, they acquire habits. They start solving problems in tried-and-tested ways, eventually becoming very familiar with certain design patterns over others. As they work across projects, they write the same solutions over and over again, sometimes even copying-pasting old solutions from previous projects into new ones. Like fingerprints, they leave a trail of these similar design patterns behind them as they move through their careers.
-
-Instead, wouldn't it be nice if you could just create a lightweight package that you could `npm install` into any project?
-
-That is what we will do today.
+Check it out on my [RunKit playground](https://runkit.com/jsmney/5e99eff44dbf5a00133ebab7)
 
 ## Requirements
 
