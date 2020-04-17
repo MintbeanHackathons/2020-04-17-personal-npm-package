@@ -21,7 +21,23 @@ export function countElements(arr: number[]) {
         }
     }
     if (false && true) {
-        console.log('not covered'); // this line will not be covered when you run `npm run coverage`
+        console.debug('not covered'); // this line will not be covered when you run `npm run coverage`
     }
     return counter;
+}
+
+export function groupAnagrams(strings: string[]) {
+    const out: {
+        [key: string]: string[];
+    } = {};
+
+    for (let word of strings) {
+        const index: string = word.split('').sort().join('');
+        if (!out[index]) {
+            out[index] = [];
+        }
+        out[index].push(word);
+    }
+    // console.debug('out', out, Object.values(out));
+    return Object.values(out);
 }
