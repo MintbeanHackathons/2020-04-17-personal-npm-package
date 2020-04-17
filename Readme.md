@@ -1,4 +1,4 @@
-# Today's Objective: A personal NPM Utility library
+# Covert Units
 
 ## Prize
 

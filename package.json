@@ -1,6 +1,6 @@
 {
-  "name": "covert-units",
-  "version": "1.0.0",
+  "name": "convert-all-units",
+  "version": "1.0.6",
   "description": "convert units easily when needed",
   "main": "index.js",
   "scripts": {
