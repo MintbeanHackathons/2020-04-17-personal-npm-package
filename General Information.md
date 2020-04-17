@@ -36,7 +36,8 @@ Links:
 
 Steps to get started:
 1. Fork this repo.
-1. Write code.
+1. `important` Clone your fork.
+1. `important` Write code IN YOUR OWN FORK.
 1. Push.
 
 ## Submitting your code
