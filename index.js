@@ -13,7 +13,20 @@ const addOne = (num) => num + 1
  */
 const leftPad = (str, len, cha = ' ') => {
   if (str.length > len) throw new Error('cannot pad, argument is too long')
+  if (cha.length > 1)
+    throw new Error('third argument needs to be a single character')
   return cha.repeat(len - str.toString().length) + str
 }
 
-module.exports = { addOne, leftPad }
+/**
+ *
+ * @param {array} arr array of strings or numbers to be left-padded
+ * @param {number} len length of target string
+ * @param {character} cha character or string to pad on left
+ * @returns {array} array of left-padded strings
+ */
+const leftPadAll = (arr, len, cha = ' ') => {
+  return arr.map((el) => leftPad(el, len, cha))
+}
+
+module.exports = { addOne, leftPad, leftPadAll }

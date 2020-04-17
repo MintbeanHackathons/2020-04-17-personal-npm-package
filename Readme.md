@@ -14,9 +14,23 @@ Created in April 2020 in participation of a Mintbean Hackathon.
 ```javascript
 const mini = require('@jsmney/minitools')
 
+// adds one!
 mini.addOne(3) // 4
+
+// emulates behavior of the infamous [left-pad](https://www.npmjs.com/package/left-pad)
 mini.leftPad('hello', 10) // '     hello'
 mini.leftPad(100, 10, '0') // '0000000100'
+mini.leftPad(100, 1, '0') // Error: cannot pad, argument is too long
+
+// leftPad, but for all elements in an array
+mini.leftPadAll(['hi', 'hello', 'greetings', 'yo'], 15)
+// [
+//   '             hi',
+//   '          hello',
+//   '      greetings',
+//   '             yo'
+// ]
+
 ```
 
 ## Example execution on RunKit
