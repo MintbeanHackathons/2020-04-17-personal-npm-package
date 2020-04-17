@@ -1,3 +1,4 @@
+// Function generates random string
 const randomStringGenerator = function () {
   let result = "";
   let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
