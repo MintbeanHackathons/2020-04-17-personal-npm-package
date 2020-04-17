@@ -42,14 +42,14 @@ describe('groupAnagrams', () => {
         expect(result).to.be.a('array');
     });
 
-    it('passing empty array returns an array', () => {
+    it('passing valid input (with anagrams) returns an array of expected size', () => {
         const input = ['eat', 'tea', 'tan', 'ate', 'nat', 'bat'];
         const result = groupAnagrams(input);
         expect(result).to.be.a('array');
         expect(result.length).to.equal(3);
     });
 
-    it('passing empty array returns an array', () => {
+    it('passing valid input (no anagrams) returns an array of expected size', () => {
         const input = ['cab', 'tin', 'pew', 'duh', 'may', 'ill', 'buy', 'bar', 'max', 'doc'];
         const result = groupAnagrams(input);
         expect(result).to.be.a('array');
