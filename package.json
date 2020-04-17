@@ -1,7 +1,7 @@
 {
-  "name": "idkjay",
-  "version": "1.0.0",
-  "description": "Personal NPM package",
+  "name": "@idkjay/personal",
+  "version": "1.0.1",
+  "description": "Personal NPM package that wraps your sentences with the eyes emoji",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/idkjay/2020-04-17-personal-npm-package.git"
-  },
+  }, 
+  "keywords": [
+    "node",
+    "npm",
+    "eyes"
+  ],
   "author": "Jordan Chu <jordanchu95@gmail.com> (http://jordanchu.xyz)",
   "license": "ISC",
   "bugs": {
