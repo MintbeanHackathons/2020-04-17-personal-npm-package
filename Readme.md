@@ -15,6 +15,8 @@ Created in April 2020 in participation of a Mintbean Hackathon.
 const mini = require('@jsmney/minitools')
 
 mini.addOne(3) // 4
+mini.leftPad('hello', 10, 'a') // 'aaaaahello'
+mini.leftPad(100, 10, '0') // '0000000100'
 ```
 
 ## Example execution on RunKit
