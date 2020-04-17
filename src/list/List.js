@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { listData } from '../../data/listData';
 
 const List = () => {
-  const listItemElements = models.map(item => (
+  const listItemElements = listData.map(item => (
     <li key={item.title} className={styles.card}>
       <Link className={styles.Link} to={`/${item.title}`}>
         <h2 className={styles.title}>{item.title}</h2>
