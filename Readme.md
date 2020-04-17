@@ -28,7 +28,7 @@ let pagedData = new Pagination(2, data)
 // new Pagination(pageSize, data)
 ```
 
-3. Use [tiny-data-pagination]
+3. Use **tiny-data-pagination**
 
 ```javascript
 const Pagination = require('tiny-data-pagination')
