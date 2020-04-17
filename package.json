@@ -1,6 +1,6 @@
 {
     "name": "random-leetcode-algorithms",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Sample of Leetcode algorithms I solved at one time or another using JS",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
