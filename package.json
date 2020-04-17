@@ -1,6 +1,6 @@
 {
     "name": "@chakrasandwich/react-shocked-pikachu",
-    "version": "1.0.3",
+    "version": "1.0.7",
     "description": "Inserts a pikachu ascii art as a react component",
     "license": "MIT",
     "repository": {
