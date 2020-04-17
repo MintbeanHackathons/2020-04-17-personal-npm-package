@@ -38,6 +38,7 @@ module.exports = {
             let foot = cm * 0.0328084
             let footInt = parseInt(foot)
             let inch = (foot - footInt) * 12
+            inch = inch.toFixed(2)
 
             return `${footInt} feet, ${inch} inches`
         }
