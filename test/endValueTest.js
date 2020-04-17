@@ -13,5 +13,5 @@ describe("#endValue#", () => {
 
 // TEST CODE
 const words = ["Hello", "Mintbean", "Hackathoners"];
-endValue(words); // no need to capture the return value since we are not checking it
+endValue(words);
 assertEqual(words.length, 3);

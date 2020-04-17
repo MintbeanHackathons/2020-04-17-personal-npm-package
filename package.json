@@ -1,7 +1,7 @@
 {
-  "name": "2020-04-17-personal-npm-package",
+  "name": "@fatimaaltaf/2020-04-17-personal-npm-package",
   "version": "1.0.0",
-  "description": "Mintbean Hackathon",
+  "description": "Mintbean Hackathon Personal NPM Package",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
