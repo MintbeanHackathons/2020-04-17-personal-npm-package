@@ -1,0 +1,1 @@
+module.exports = simpleTest => console.log(simpleTest);
