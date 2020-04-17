@@ -5,9 +5,9 @@ module.exports.makeArrayLowercase = stringArray => {
 
 module.exports.addArrays = (arr1, arr2) => {
   if(arr1.length < arr2.length) {
-    const len = arr1.length
+    var len = arr1.length
   } else {
-    const len = arr2.length
+    var len = arr2.length
   }
   const sumOfArrays = []
   for( let x = 0; x < len; x++) {
