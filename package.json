@@ -1,6 +1,6 @@
 {
   "name": "@matsos/expected-wins",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple javascript library based on a formula developed by baseball statistician Bill James. It attempts to determine the number of games a team should have won, by comparing the total number of runs a team has scored to the number of runs it has allowed.",
   "license": "MIT",
   "repository": "https://github.com/drydenje/2020-04-17-personal-npm-package",
