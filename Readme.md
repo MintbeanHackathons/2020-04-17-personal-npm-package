@@ -1,5 +1,7 @@
-# shocked-pikachu
- inserts a pikachu asci art into your react component
+# @chakrasandwich/react-shocked-pikachu
+![npm](https://img.shields.io/npm/v/@chakrasandwich/react-shocked-pikachu)
+
+ npm package inserts a pikachu asci art as a react component, part of a mintbean hackthon challenge [repo](https://github.com/MintbeanHackathons/2020-04-17-personal-npm-package)
 
 ## Install
 
@@ -19,8 +21,10 @@ const App = () => {
 }
 
 ```
+## Preview
+tba
 
-## Mintbean Hackathon Resources
+## Resources
 
 * [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
 * [Video - Creating & publishing your own NPM modules](https://www.youtube.com/watch?v=rTsz09zRuTU)
