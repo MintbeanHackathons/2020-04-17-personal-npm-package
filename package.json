@@ -1,0 +1,25 @@
+{
+    "name": "2020-04-17-personal-npm-package",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch-ts": "tsc -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/montrealist/2020-04-17-personal-npm-package.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/montrealist/2020-04-17-personal-npm-package/issues"
+    },
+    "homepage": "https://github.com/montrealist/2020-04-17-personal-npm-package#readme",
+    "devDependencies": {
+        "typescript": "^3.8.3"
+    }
+}
