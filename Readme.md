@@ -1,10 +1,11 @@
-# Today's Objective: A personal NPM Utility library
+# Jasmine's personal NPM Utility library
 
-## Prize
+![npm(scoped)](https://img.shields.io/npm/v/@jsmney/minitools)
 
-$25 CAD Amazon gift card + bragging rights.
+Created in April 2020 in participation of a Mintbean Hackathon.
+[github](https://github.com/jsmney/2020-04-17-personal-npm-package)
 
-Tip: Read the [General Information Document](General%20Information.md) for more info on how to get started and submit.
+---
 
 ## Objective
 
@@ -25,31 +26,31 @@ That is what we will do today.
 
 ## Special requirements for today's hackathon:
 
-*Aesthetics*: There is no visual component to today's project. Your score will be determined by your module's beauty. i.e. by the method names, number of parameters, whether they are functions or classes, namespaces within your package, and how lightweight the imported module is, etc.
+_Aesthetics_: There is no visual component to today's project. Your score will be determined by your module's beauty. i.e. by the method names, number of parameters, whether they are functions or classes, namespaces within your package, and how lightweight the imported module is, etc.
 
 The more methods you put in your package, the better.
 
-*Deployment*:
+_Deployment_:
 
 Videos and screenshots will not be accepted. You must leave links to:
 
 1. Your NPM package
 2. A deployed project on Runkit or Codepen.
 
-
 Your deployment options for #2 above are:
 
-1. Runkit - You will have to sign up and create a new notebook. See the example [Runkit Notebooks](https://runkit.com/monarchwadia). 
+1. Runkit - You will have to sign up and create a new notebook. See the example [Runkit Notebooks](https://runkit.com/monarchwadia).
 2. Codepen - You can import your project into Codepen using [unpkg](https://unpkg.com/)
 
 ## Bonus points
 
 Bonus points will be awarded for:
-* Creating a typescript-compatible project
-* Creating unit tests
-* Using a precompiler (only if appropriate, i.e. if you are using Typescript or Babel, or if you are creating a React library)
-* Leaving detailed instructions for local development on `Readme.md`
-* Writing documentation (for your future self's benefit)
+
+- Creating a typescript-compatible project
+- Creating unit tests
+- Using a precompiler (only if appropriate, i.e. if you are using Typescript or Babel, or if you are creating a React library)
+- Leaving detailed instructions for local development on `Readme.md`
+- Writing documentation (for your future self's benefit)
 
 ## Frameworks:
 
@@ -57,8 +58,8 @@ Any or none. You can create a personal library with just plain JavaScript. You c
 
 ## Restrictions
 
-* Your project must use JavaScript.
-* You must follow deployment instructions above.
+- Your project must use JavaScript.
+- You must follow deployment instructions above.
 
 There are no other restrictions.
 
@@ -71,6 +72,6 @@ There are no other restrictions.
 
 ## Resources
 
-* [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
-* [Video - Creating & publishing your own NPM modules](https://www.youtube.com/watch?v=rTsz09zRuTU)
-* [freeCodeCamp's Tutorial](https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/)
+- [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
+- [Video - Creating & publishing your own NPM modules](https://www.youtube.com/watch?v=rTsz09zRuTU)
+- [freeCodeCamp's Tutorial](https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/)
