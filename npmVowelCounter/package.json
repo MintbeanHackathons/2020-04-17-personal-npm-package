@@ -1,0 +1,11 @@
+{
+  "name": "vowelcounter",
+  "version": "1.0.4",
+  "description": "Counts vowles in a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm build"
+  },
+  "author": "Chase Baker",
+  "license": "ISC"
+}
