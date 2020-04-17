@@ -1,4 +1,5 @@
 const { cl } = require("./logger");
+cl.setTextColor("red");
 cl.g("making a group");
 cl("testing this");
 cl("is this still working?");
