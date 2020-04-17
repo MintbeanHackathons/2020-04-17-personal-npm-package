@@ -17,4 +17,5 @@ module.exports.addArrays = (arr1, arr2) => {
       sumOfArrays.push(arr1[x] + arr2[x])
     }
   }
+  return sumOfArrays
 }
