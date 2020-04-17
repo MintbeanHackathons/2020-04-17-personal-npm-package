@@ -1,0 +1,19 @@
+{
+  "name": "2020-04-17-personal-npm-package",
+  "version": "1.0.0",
+  "description": "Mintbean Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatimaaltaf/2020-04-17-personal-npm-package.git"
+  },
+  "author": "Fatima Altaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatimaaltaf/2020-04-17-personal-npm-package/issues"
+  },
+  "homepage": "https://github.com/fatimaaltaf/2020-04-17-personal-npm-package#readme"
+}
