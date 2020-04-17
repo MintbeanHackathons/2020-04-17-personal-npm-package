@@ -31,6 +31,9 @@ mini.leftPadAll(['hi', 'hello', 'greetings', 'yo'], 15)
 //   '             yo'
 // ]
 
+// Happy Number checker!
+mini.isHappy(19) // true
+mini.isHappy(20) // false
 ```
 
 ## Example execution on RunKit
