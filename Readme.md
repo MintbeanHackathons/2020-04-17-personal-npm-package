@@ -4,7 +4,7 @@
 ## Install
 
 ```
-$ npm install react-shocked-pikachu
+$ npm install @chakrasandwich/react-shocked-pikachu
 ```
 
 ## Usage
