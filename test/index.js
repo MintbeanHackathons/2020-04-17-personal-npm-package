@@ -51,9 +51,15 @@ function matrixUtils() {
 		}
 	}; // end of loopmatrix function
 
-	const cloneMatrix = (array) => {}; //end of clone function
+	const cloneMatrix = (array) => {
+		return JSON.parse(JSON.stringify(array));
+	}; //end of clone function
 
-	return { createMatrix: createMatrix, loopMatrix: loopMatrix };
+	return {
+		createMatrix: createMatrix,
+		loopMatrix: loopMatrix,
+		cloneMatrix: cloneMatrix,
+	};
 }
 
 const test = () => {
@@ -66,6 +72,8 @@ const test = () => {
 
 let test2 = test();
 
-console.log(!Array.isArray(anotherTest) && typeof anotherTest === 'object');
+let clone = matrixUtils().cloneMatrix(test2);
 
-console.log(Array.isArray(test2));
+// console.log(!Array.isArray(anotherTest) && typeof anotherTest === 'object');
+
+// console.log(Array.isArray(test2));
