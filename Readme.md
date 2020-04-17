@@ -16,7 +16,7 @@ Mintbean Hackathon.
 
 **Call it:**
 
-`const results = _.endValue([1, 2, 3]) // => [2, 3]`
+`const results = _.endValues([1, 2, 3]) // => [2, 3]`
 
 ## Documentation
 
@@ -28,4 +28,4 @@ The following functions are currently implemented:
 * `eqArrays(array1, array2)`: takes in two arrays and returns true or false, based on a perfect match.
 * `findKeyByValue(bestMovies, value)`: finds key in an object through the value.
 * `middleValue(array)`: takes in an array and return the middle-most element(s) of the given array.
-* `endValue(array)`: retrieves every element except the head (first element) of the array.
+* `endValues(array)`: retrieves every element except the head (first element) of the array.
