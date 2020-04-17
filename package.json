@@ -1,0 +1,28 @@
+{
+  "name": "@matsos/expected-wins",
+  "version": "1.0.0",
+  "description": "A simple javascript library based on a formula developed by baseball statistician Bill James. It attempts to determine the number of games a team should have won, by comparing the total number of runs a team has scored to the number of runs it has allowed.",
+  "license": "MIT",
+  "repository": "",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "keywords": [
+    "expected wins",
+    "Bill James",
+    "SABR",
+    "baseball",
+    "pythagorean theorem",
+    "runs scored",
+    "runs allowed",
+    "run differential"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}
