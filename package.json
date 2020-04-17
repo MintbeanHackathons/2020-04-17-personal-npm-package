@@ -1,8 +1,8 @@
 {
   "name": "hackathon-matthewmaeda",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "$25 CAD Amazon gift card + bragging rights.",
-  "main": "index.html",
+  "main": "index.js",
 
   "repository": {
     "type": "git",
