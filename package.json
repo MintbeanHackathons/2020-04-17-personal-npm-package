@@ -1,5 +1,5 @@
 {
-  "name": "2020-04-17-personal-npm-package",
+  "name": "rhc822-amazingly-simple-consolelog-test",
   "version": "1.0.0",
   "description": "A small utility testing, uploading to NPM, and using a homemade package",
   "main": "index.js",
