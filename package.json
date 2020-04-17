@@ -1,0 +1,38 @@
+{
+  "name": "react-lists-and-details",
+  "version": "1.0.0",
+  "description": "easily add react List and Detail components to your react project",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-router-dom": "^5.1.2",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/licarpen/2020-04-17-personal-npm-package.git"
+  },
+  "author": "Lisa Carpenter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/licarpen/2020-04-17-personal-npm-package/issues"
+  },
+  "homepage": "https://github.com/licarpen/2020-04-17-personal-npm-package#readme",
+  "keywords": []
+}
