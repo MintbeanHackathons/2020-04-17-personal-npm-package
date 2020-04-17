@@ -1,5 +1,5 @@
 {
-  "name": "@idkjay/read-receipts",
+  "name": "@idkjay/personal",
   "version": "1.0.2",
   "description": "Don't leave your messages unread! Wrap them with the eyes emoji.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/idkjay/2020-04-17-personal-npm-package.git"
-  }, 
+  },
   "keywords": [
     "node",
     "npm",
