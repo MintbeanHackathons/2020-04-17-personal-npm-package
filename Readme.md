@@ -67,6 +67,7 @@ Reset the page size ad the pageSize(number) you passed in .
 
 `pagedData.sortData(sortType, keyName)`
 Sort the data based on the keyName(string) of each object. If it's an array you don't need pass it.
+
 sortType is a number **0** or **1**. 
 **0** means **ascending**;
 **1** means **descending**;
