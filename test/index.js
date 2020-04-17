@@ -13,9 +13,9 @@ const testArray = [
 ];
 
 const anotherTest = {
-	one: [{ one: 1, two: 2, three: 3 }],
-	two: [{ one: 1, two: 2, three: 3 }],
-	three: [{ one: 1, two: 2, three: 3 }],
+	one: { one: 1, two: 2, three: 3 },
+	two: { one: 1, two: 2, three: 3 },
+	three: { one: 1, two: 2, three: 3 },
 };
 
 // testFunc(anotherTest);
@@ -44,10 +44,28 @@ function matrixUtils() {
 			console.log(element);
 		}
 	) => {
-		for (let row = 0; row < array.length; row++) {
-			for (let column = 0; column < array[row].length; column++) {
-				func(array[row][column]);
-			}
+		//conditional to check fi the array is an object or not to be able to iterate through
+		switch (true) {
+			case Array.isArray(array):
+				for (let row = 0; row < array.length; row++) {
+					for (let column = 0; column < array[row].length; column++) {
+						func(array[row][column]);
+					}
+				}
+				break;
+
+			case !Array.isArray(array) && typeof array === 'object':
+				//for objects
+				for (const row in array) {
+					for (const column in array[row]) {
+						func(array[row][column]);
+					}
+				}
+				break;
+
+			default:
+				console.log('please add an array or object to be looped through');
+				break;
 		}
 	}; // end of loopmatrix function
 
@@ -70,10 +88,15 @@ const test = () => {
 	return newArray;
 };
 
-let test2 = test();
+// let test2 = test();
 
-let clone = matrixUtils().cloneMatrix(test2);
+// let clone = matrixUtils().cloneMatrix(test2);
 
 // console.log(!Array.isArray(anotherTest) && typeof anotherTest === 'object');
 
 // console.log(Array.isArray(test2));
+
+matrixUtils().loopMatrix(anotherTest);
+// matrixUtils().loopMatrix(testArray);
+
+// console.log(anotherTest);
