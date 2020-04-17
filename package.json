@@ -1,11 +1,11 @@
 {
 	"name": "myfooter",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "A pretty footer",
 	"main": "lib/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "rm -rf ./lib && tsc",
+		"build": "rm -rf ./dist && tsc",
 		"prepare": "yarn build"
 	},
 	"repository": {
@@ -23,6 +23,10 @@
 		"@types/react-dom": "^16.9.6",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"typescript": "^3.8.3"
+		"source-map-loader": "^0.2.4",
+		"ts-loader": "^7.0.0",
+		"typescript": "^3.8.3",
+		"webpack": "^4.42.1",
+		"webpack-cli": "^3.3.11"
 	}
 }
