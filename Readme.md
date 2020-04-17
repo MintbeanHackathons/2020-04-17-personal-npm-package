@@ -36,7 +36,7 @@ Coverage with NYC:
 
 `npm run coverage`
 
-_Note:_ you will see numbers that are not all 100% - this is on purpose. You can comment out a dummy `if(false)` lines, then run `npm test coverage` again and ensure the coverage is at 💯 percent.
+_Note:_ you will see numbers that are not all 100% - this is on purpose. You can comment out the dummy `if(false)` condition in `index.ts`, then run `npm test coverage` again and ensure the coverage is at 💯 percent.
 
 ## Available Functions
 
