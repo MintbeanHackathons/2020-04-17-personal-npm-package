@@ -1,0 +1,18 @@
+{
+  "name": "@aclai4067/utilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aclai4067/2020-04-17-personal-npm-package"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "aclai4067",
+    "utilities"
+  ],
+  "author": "Ashley Claiborne",
+  "license": "MIT"
+}
