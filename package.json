@@ -1,7 +1,7 @@
 {
-  "name": "@idkjay/personal",
-  "version": "1.0.1",
-  "description": "Personal NPM package that wraps your sentences with the eyes emoji",
+  "name": "@idkjay/read-receipts",
+  "version": "1.0.2",
+  "description": "Don't leave your messages unread! Wrap them with the eyes emoji.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
