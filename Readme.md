@@ -45,6 +45,7 @@ Your deployment options for #2 above are:
 ## Bonus points
 
 Bonus points will be awarded for:
+
 * Creating a typescript-compatible project
 * Creating unit tests
 * Using a precompiler (only if appropriate, i.e. if you are using Typescript or Babel, or if you are creating a React library)

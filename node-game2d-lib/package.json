@@ -1,0 +1,13 @@
+{
+  "name": "game2d-lib",
+  "version": "1.0.4",
+  "description": "This is a test of game-2d library as npm package",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "npm-game2d",
+    "game2d"
+  ],
+  "author": "Diogo Fernandes de Queiroz",
+  "license": "ISC"
+}

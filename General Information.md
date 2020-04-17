@@ -35,6 +35,7 @@ Links:
 ## Getting started.
 
 Steps to get started:
+
 1. Fork this repo.
 1. `important` Clone your fork.
 1. `important` Write code IN YOUR OWN FORK.
@@ -80,6 +81,7 @@ As a last resort, screenshots uploaded in your final push will do.
 Code review means leaving constructive comments on other people's code.
 
 Code review is assessed based on things like:
+
 1. Valid points about the author's architecture.
 1. Constructive criticism on the author's code quality.
 1. Pointing out logical errors in the author's code (but being nice about it).
@@ -87,8 +89,8 @@ Code review is assessed based on things like:
 1. Last but not least: common courtesy and being nice. Don't be a jerk.
 
 No points are awarded for things like:
+
 1. Nitpicks on non-functional aspects like syntax, indentation, etc.
 1. Positive comments like "Awesome!" or "Great job!" or "I like this!"
 1. Harrassing, abusive or sarcastic comments (these could disqualify you and possibly get you banned)
 1. Other obviously low-value comments
-
