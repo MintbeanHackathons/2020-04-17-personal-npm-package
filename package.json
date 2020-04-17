@@ -18,7 +18,10 @@
         "type": "git",
         "url": "git+https://github.com/montrealist/2020-04-17-personal-npm-package.git"
     },
-    "keywords": [],
+    "keywords": [
+        "leetcode",
+        "algorithms"
+    ],
     "author": "montrealist",
     "license": "ISC",
     "bugs": {
