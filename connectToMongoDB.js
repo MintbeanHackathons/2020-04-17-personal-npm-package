@@ -13,10 +13,10 @@ const getURI = (configPath) => {
 };
 
 const connectToMongoDB = async (configPath) => {
-  return new Promise(async (resolve, reject) => {
-    const [error] = await to(mongoose.connect(getURI(configPath), { useNewUrlParser: true }));
-    error ? reject(error) : resolve();
-  });
+  const [error] = await to(mongoose.connect(getURI(configPath), { useNewUrlParser: true }));
+  if (error) {
+    return error;
+  }
 };
 
-module.exports= connectToMongoDB;
+module.exports = connectToMongoDB;
