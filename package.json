@@ -1,0 +1,40 @@
+{
+  "name": "my-react-grid",
+  "version": "1.0.0",
+  "description": "create grid react component!",
+  "main": "./index.js",
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pluralsight",
+  "license": "ISC",
+  "keywords": [
+    "grid"
+  ],
+  "dependencies": {
+    "immer": "^6.0.3",
+    "react": "^16.13.1",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "webpack-cli": "^3.3.11",
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^8.1.0",
+    "@babel/core": "7.8.4",
+    "@babel/compat-data": "^7.8.0",
+    "@babel/preset-env": "^7.8.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "^7.8.0"
+  }
+}
