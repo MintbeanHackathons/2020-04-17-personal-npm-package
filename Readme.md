@@ -1,5 +1,6 @@
 # react-cookies-users-provider
 
+
 > Provides the logged in user after saving them in a cookie
 
 [![NPM](https://img.shields.io/npm/v/react-cookies-users-provider.svg)](https://www.npmjs.com/package/react-cookies-users-provider) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
