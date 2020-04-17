@@ -1,6 +1,6 @@
 {
   "name": "fsa-sorting",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "Test",
   "main": "index.js",
   "scripts": {
