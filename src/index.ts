@@ -26,6 +26,20 @@ export function countElements(arr: number[]) {
     return counter;
 }
 
+/**
+ * Given an array of strings, group anagrams together.
+ *
+ * Example:
+ * Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
+ * [
+ *   ["ate","eat","tea"],
+ *   ["nat","tan"],
+ *   ["bat"]
+ * ]
+ *
+ * @param {string[]} strings
+ * @return {string[][]}
+ */
 export function groupAnagrams(strings: string[]) {
     const out: {
         [key: string]: string[];
