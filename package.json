@@ -1,6 +1,6 @@
 {
   "name": "convert-all-units",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "convert units easily when needed",
   "main": "index.js",
   "scripts": {
