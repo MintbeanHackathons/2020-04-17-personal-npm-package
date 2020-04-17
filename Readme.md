@@ -1,76 +1,72 @@
-# Today's Objective: A personal NPM library
+# Tiny Data Pagination
 
-## Prize
+## Installation
 
-$25 CAD Amazon gift card + bragging rights.
+Installation is done using the **npm install command**:
+```bash
+$ npm install tiny-data-pagination
+```
 
-Tip: Read the [General Information Document](General%20Information.md) for more info on how to get started and submit.
+## Usage
 
-## Objective
+Use it in your app
 
-Today's objective is to build and publish a personal NPM package.
+1. require **tiny-data-pagination**
 
-As developers learn and grow, they acquire habits. They start solving problems in tried-and-tested ways, eventually becoming very familiar with certain design patterns over others. As they work across projects, they write the same solutions over and over again, sometimes even copying-pasting old solutions from previous projects into new ones. Like fingerprints, they leave a trail of these similar design patterns behind them as they move through their careers.
+```javascript
+const Pagination = require('tiny-data-pagination')
+```
 
-Instead, wouldn't it be nice if you could just create a lightweight package that you could `npm install` into any project?
+2. Create a **tiny-data-pagination** object
 
-That is what we will do today.
+```javascript
+const Pagination = require('tiny-data-pagination')
 
-## Requirements
+let data = [2, 4, 6, 22, 4, 6, 2, 12]
 
-1. Create a personal [npm](https://npmjs.com) library.
-1. Fill it with methods you would find useful in future projects.
-1. Publish it to `npm` (you may have to sign up for an `npm` account).
-1. Demonstrate that it can be `require`d right from `npm`, by building a project using Runkit or Codepen
+let pagedData = new Pagination(2, data)
+// new Pagination(pageSize, data)
+```
 
-## Special requirements for today's hackathon:
+3. Use [tiny-data-pagination]
 
-*Aesthetics*: There is no visual component to today's project. Your score will be determined by your module's beauty. i.e. by the method names, number of parameters, whether they are functions or classes, namespaces within your package, and how lightweight the imported module is, etc.
+```javascript
+const Pagination = require('tiny-data-pagination')
 
-The more methods you put in your package, the better.
+let data = [2, 4, 6, 22, 4, 6, 2, 12]
 
-*Deployment*:
+let pagedData = new Pagination(2, data)
 
-Videos and screenshots will not be accepted. You must leave links to:
+console.log(pagedData.getPageData(1)) // [ 2, 4 ]
+console.log(pagedData.nextPage()) // [ 6, 22 ]
+console.log(pagedData.sortData(0)) // [ 2, 2, 4, 4, 6, 6, 12, 22 ]
+```
 
-1. Your NPM package
-2. A deployed project on Runkit or Codepen.
+## Methods
 
+`pagedData.getPageData(pageNo)` 
+Returns the data of the page number(number) you passed.
 
-Your deployment options for #2 above are:
+`pagedData.getPageLength()` 
+Returns the length of pages.
 
-1. Runkit - You will have to sign up and create a new notebook. See the example [Runkit Notebooks](https://runkit.com/monarchwadia). 
-2. Codepen - You can import your project into Codepen using [unpkg](https://unpkg.com/)
+`pagedData.getCurrentPageNo()`
+Returns the current page number.
 
-## Bonus points
+`pagedData.setData(newData)`
+Reset your data as the newData you passed in .
 
-Bonus points will be awarded for:
-* Creating a typescript-compatible project
-* Creating unit tests
-* Using a precompiler (only if appropriate, i.e. if you are using Typescript or Babel, or if you are creating a React library)
-* Leaving detailed instructions for local development on `Readme.md`
-* Writing documentation (for your future self's benefit)
+`pagedData.nextPage()`
+Returns the data of next page.
 
-## Frameworks:
+`pagedData.previousPage()`
+Returns the data of previous page.
 
-Any or none. You can create a personal library with just plain JavaScript. You can also create a personal library that contains common React/Vue/Angular components that you find yourself using often across projects.
+`pagedData.setPageSize(pageSize)`
+Reset the page size ad the pageSize(number) you passed in .
 
-## Restrictions
-
-* Your project must use JavaScript.
-* You must follow deployment instructions above.
-
-There are no other restrictions.
-
-## Tips for success:
-
-1. The project is intentionally simple so you can focus on code quality.
-1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
-1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
-1. Keep in mind, 33% of your score is based on aesthetic appeal!
-
-## Resources
-
-* [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
-* [Video - Creating & publishing your own NPM modules](https://www.youtube.com/watch?v=rTsz09zRuTU)
-* [freeCodeCamp's Tutorial](https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/)
+`pagedData.sortData(sortType, keyName)`
+Sort the data based on the keyName(string) of each object. If it's an array you don't need pass it.
+sortType is a number **0** or **1**. 
+**0** means **ascending**;
+**1** means **descending**;

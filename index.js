@@ -29,7 +29,7 @@ class TinyPagination {
         return this.getPageData(this.pageNo + 1)
     }
 
-    lastPage() {
+    previousPage() {
         return this.getPageData(this.pageNo - 1)
     }
 

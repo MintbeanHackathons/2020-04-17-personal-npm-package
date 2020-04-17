@@ -1,6 +1,6 @@
 {
-  "name": "tiny-pagination",
-  "version": "1.0.0",
+  "name": "tiny-data-pagination",
+  "version": "1.0.3",
   "description": "Add pagination to data array",
   "main": "index.js",
   "scripts": {
