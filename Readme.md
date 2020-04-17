@@ -1,4 +1,4 @@
-# Jasmine's personal NPM Utility library
+# Jasmine's personal NPM JS Utility library
 
 ![npm(scoped)](https://img.shields.io/npm/v/@jsmney/minitools)[![install size](https://packagephobia.now.sh/badge?p=@jsmney/minitools)](https://packagephobia.now.sh/result?p=@jsmney/minitools)
 
@@ -31,6 +31,8 @@ Check it out on my [RunKit playground](https://runkit.com/jsmney/5e99eff44dbf5a0
 ## Resources
 
 - I found [freeCodeCamp's Tutorial](https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/) SUPER helpful :)
+
+### Additional Links
 
 - [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
 - [Video - Creating & publishing your own NPM modules](https://www.youtube.com/watch?v=rTsz09zRuTU)
