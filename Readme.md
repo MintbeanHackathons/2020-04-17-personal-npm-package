@@ -10,7 +10,7 @@ $ npm install react-shocked-pikachu
 ## Usage
 ```js
 import React from 'react';
-import Pikachu from 'react-shocked-pikachu';
+import Pikachu from '@chakrasandwich/react-shocked-pikachu';
 
 const App = () => {
     return (
