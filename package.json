@@ -1,6 +1,6 @@
 {
   "name": "@idkjay/personal",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Don't leave your messages unread! Wrap them with the eyes emoji.",
   "main": "index.js",
   "scripts": {
