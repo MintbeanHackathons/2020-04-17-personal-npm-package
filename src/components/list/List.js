@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './PortfolioList.css';
+import styles from './List.css';
 import { Link } from 'react-router-dom';
 import { listData } from '../../data/listData';
 
