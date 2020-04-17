@@ -12,38 +12,60 @@ const testArray = [
 	[7, 8, 9],
 ];
 
-const anotherTest = [
-	[
-		{ one: 1, two: 2, three: 3 },
-		{ four: 4, five: 5, six: 6 },
-	],
-	[
-		{ one: 1, two: 2, three: 3 },
-		{ four: 4, five: 5, six: 6 },
-	],
-	[
-		{ one: 1, two: 2, three: 3 },
-		{ four: 4, five: 5, six: 6 },
-	],
-];
+const anotherTest = {
+	one: [{ one: 1, two: 2, three: 3 }],
+	two: [{ one: 1, two: 2, three: 3 }],
+	three: [{ one: 1, two: 2, three: 3 }],
+};
 
 // testFunc(anotherTest);
 
 //calling it matrix since it's for only multidimensional arrays
 //choosing old ES5 function call for scoping
-function matrixUtils(array) {
-	const createMatrix = (sizeX, sizeY, value) => {
+//has 3 parameters
+//size for X(row)
+//size for Y(column)
+//value, a function that will determine the value of each elemenet
+function matrixUtils() {
+	const createMatrix = (sizeX, sizeY, value = () => undefined) => {
 		const matrix = [];
 		for (let row = 0; row < sizeX; row++) {
 			matrix[row] = [];
 			for (let column = 0; column < sizeY; column++) {
-				matrix[row][column] = value;
+				matrix[row][column] = value();
 			}
 		}
 		return matrix;
 	}; // end of createMatrix function
 
-	return { createMatrix: createMatrix };
+	const loopMatrix = (
+		array,
+		func = (element) => {
+			console.log(element);
+		}
+	) => {
+		for (let row = 0; row < array.length; row++) {
+			for (let column = 0; column < array[row].length; column++) {
+				func(array[row][column]);
+			}
+		}
+	}; // end of loopmatrix function
+
+	const cloneMatrix = (array) => {}; //end of clone function
+
+	return { createMatrix: createMatrix, loopMatrix: loopMatrix };
 }
 
-console.log(matrixUtils().createMatrix(5, 5));
+const test = () => {
+	const newArray = [];
+	matrixUtils().loopMatrix(testArray, (element) => {
+		if (element >= 2 && element <= 7) newArray.push(element);
+	});
+	return newArray;
+};
+
+let test2 = test();
+
+console.log(!Array.isArray(anotherTest) && typeof anotherTest === 'object');
+
+console.log(Array.isArray(test2));
