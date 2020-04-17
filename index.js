@@ -11,7 +11,7 @@ module.exports.addArrays = (arr1, arr2) => {
   }
   const sumOfArrays = []
   for( let x = 0; x < len; x++) {
-    if(typeof arr1[x] !== "number" || typeof arr2[x] !== "number" ) {
+    if(typeof arr1[x] !== "number" || typeof arr2[x] !== "number" && (arr1[x] !== NaN || arr2[x] !== NaN) ) {
       sumOfArrays.push(NaN)
     } else { 
       sumOfArrays.push(arr1[x] + arr2[x])
