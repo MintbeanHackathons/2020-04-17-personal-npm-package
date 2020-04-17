@@ -24,7 +24,6 @@ The following functions are currently implemented:
 
 * `assertArraysEqual(actual, expected)`: takes in two arrays and console.logs an appropriate message to the console.
 * `assertEqual(actual, expected)`: series of success / failure messages printed to the console.
-* `assertObjectsEqual(actual, expected)`: helps easily test functions that return objects.
 * `countString`: takes in a collection of items and returns counts for a specific subset of those items.
 * `eqArrays(array1, array2)`: takes in two arrays and returns true or false, based on a perfect match.
 * `findKeyByValue(bestMovies, value)`: finds key in an object through the value.
