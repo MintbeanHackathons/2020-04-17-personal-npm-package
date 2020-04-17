@@ -1,3 +1,8 @@
-export const Greeter = (name: string = 'unknown'): string => {
-    return `Hello ${name}`;
-};
+export class Algorithms {
+    test(s: string = 'unknown person'): string {
+        return `Hello, ${s}`;
+    }
+    anotherTest(s: string = 'unknown person'): string {
+        return `Hello again, ${s}`;
+    }
+}
