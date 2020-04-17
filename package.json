@@ -9,7 +9,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha || true"
+    "test": "mocha --watch"
   },
   "keywords": [
     "expected wins",
