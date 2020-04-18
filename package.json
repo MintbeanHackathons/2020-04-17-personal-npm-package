@@ -1,12 +1,12 @@
 {
-	"name": "myfooter",
-	"version": "0.0.3",
+	"name": "react-myfooter",
+	"version": "2.0.0",
 	"description": "A pretty footer",
-	"main": "dist/index.js",
+	"main": "./build/footer.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "rm -rf ./dist && tsc",
-		"prepare": "yarn build"
+		"build": "webpack",
+		"prepare": "npm run build"
 	},
 	"repository": {
 		"type": "git",
@@ -19,15 +19,27 @@
 	},
 	"homepage": "https://github.com/suzynakayama/2020-04-17-personal-npm-package#readme",
 	"devDependencies": {
+		"@babel/core": "^7.9.0",
+		"@babel/preset-env": "^7.9.5",
+		"@babel/preset-react": "^7.9.4",
+		"@babel/preset-typescript": "^7.9.0",
 		"@types/react": "^16.9.34",
 		"@types/react-dom": "^16.9.6",
+		"@types/webpack": "^4.41.11",
+		"babel-loader": "^8.1.0",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"babel-plugin-transform-react-jsx": "^6.24.1",
 		"css-loader": "^3.5.2",
-		"react": "^16.13.1",
+		"file-loader": "^6.0.0",
+		"path": "^0.12.7",
 		"react-dom": "^16.13.1",
 		"source-map-loader": "^0.2.4",
-		"ts-loader": "^7.0.0",
+		"style-loader": "^1.1.4",
 		"typescript": "^3.8.3",
-		"webpack": "^4.42.1",
 		"webpack-cli": "^3.3.11"
+	},
+	"dependencies": {
+		"react": "^16.13.1",
+		"webpack": "^4.42.1"
 	}
 }

@@ -1,45 +1,39 @@
+const path = require("path");
+
 module.exports = {
 	mode: "production",
-
-	// Enable sourcemaps for debugging webpack's output.
-	devtool: "source-map",
-
-	resolve: {
-		// Add '.ts' and '.tsx' as resolvable extensions.
-		extensions: [".ts", ".tsx"],
+	entry: "./src/footer.tsx",
+	output: {
+		path: path.resolve(__dirname, "build"),
+		filename: "footer.js",
+		libraryTarget: "commonjs2",
 	},
-
+	resolve: {
+		extensions: [".ts", ".tsx", ".js"],
+	},
+	devtool: "source-map",
 	module: {
 		rules: [
 			{
-				test: /\.ts(x?)$/,
+				test: /\.(ts|js)x?$/,
+				include: path.resolve(__dirname, "src"),
 				exclude: /node_modules/,
-				use: [
-					{
-						loader: "ts-loader",
+				use: {
+					loader: "babel-loader",
+					query: {
+						presets: ["@babel/preset-env"],
 					},
-				],
+				},
 			},
-			// All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
 			{
-				enforce: "pre",
-				test: /\.js$/,
-				loader: "source-map-loader",
+				test: /\.css$/,
+				use: ["style-loader", "css-loader"],
 			},
-			{ test: /\.css$/, use: "css-loader" },
-			{ test: /\.png/, type: "asset/resource" },
+			{
+				test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
+				exclude: /node_modules/,
+				use: ["file-loader?name=[name].[ext]"],
+			},
 		],
-	},
-
-	// When importing a module whose path matches one of the following, just
-	// assume a corresponding global variable exists and use that instead.
-	// This is important because it allows us to avoid bundling all of our
-	// dependencies, which allows browsers to cache those libraries between builds.
-	externals: {
-		react: "React",
-		"react-dom": "ReactDOM",
-	},
-	experiments: {
-		asset: true,
 	},
 };

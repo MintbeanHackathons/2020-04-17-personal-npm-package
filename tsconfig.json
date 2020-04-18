@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
-		"outDir": "./dist/",
+		"allowSyntheticDefaultImports": true,
+		"outDir": "./build/",
 		"target": "es6",
 		"module": "commonjs",
 		"noImplicitAny": true,

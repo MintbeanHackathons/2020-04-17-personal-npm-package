@@ -1,21 +1,30 @@
-import * as React from "react";
+import React from "react";
 import "./footer.css";
 
-const Footer = (github: string, name: string) => {
+interface Props {
+	github: string;
+	name: string;
+}
+
+const Footer = (props: Props) => {
 	return (
 		<footer className="footer">
 			<p className="footer-p">
 				<a
-					href={github}
+					href={props.github}
 					className="footer-a"
 					target="_blank"
 					rel="noreferrer noopener"
 				>
 					<span className="footer-span">Developed by</span>
-					&nbsp;{name}&nbsp;
-					<img className="github" src="./github.png" alt="github icon" />
+					&nbsp;{props.name}&nbsp;
+					<img
+						className="github"
+						src="https://i.imgur.com/4TlWcym.png"
+						alt="github icon"
+					/>
 				</a>
-				<span className="footer-span left">All Rights Reserved &reg;</span>
+				<span className="footer-span right">All Rights Reserved &reg;</span>
 			</p>
 		</footer>
 	);
