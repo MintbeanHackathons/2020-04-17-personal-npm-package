@@ -1,26 +1,49 @@
-# Today's Objective: A personal NPM Utility library
+# A personal NPM Utility library: vanilla-js-util
 
-## Subject: vanilla-js-util
-
-This npm app helps you to decrease your time to build vanillaJS app.
+This npm app helps you to increase vanillaJS app building speed.
 
 ## Getting Started
 #### Install npm
 ```
-npm install @suhy/vanilla-js-util
+npm install --save @suhy/vanilla-js-util
 ```
 
-#### Example usage
+#### Feature
+- createTag({tag: --, [id: --], [classes: --] })
+  : the value of classes is seperated by blank
+```
+createTag({tag: 'div', classes: 'emphasize bold'});
+```
+
+- resizeTextarea()
+  : it enables textarea following user's input
+```
+resizeTextarea()
+```
+
+- focusSet(element)
+  : from the element(window or dom element), focus on the first descendant input tag
+```
+const element = document.querySelector('.some')
+focusSet(element);
+```
+
+- reloadScreen
+  : it replaces `window.location.reload`
+```
+reloadScreen()
+```
+
+- capitalize
+  : it changes the first letter of input text to capitalized letter
+```
+const todo = 'todo';
+capitalize(todo); //=> Todo
+```
+
+#### Usage
 ```
 import { createTag, resizeTextarea, focusSet, reloadScreen, capitalize } from '@suhy/vanilla-js-util';
-
-createTag('div');
-createTag('tag name', 'id name', 'class name', 'inner text');
-resizeTextarea(); // if it has textarea tag
-const element = document.querySelector('.some');
-focusSet(element); // from this element, select input and focus on
-reloadScreen(); // instead window.location.reload();
-capitalize('a sentense'); // it represent as 'A sentense'
 ```
 
 ## Author
