@@ -3,7 +3,7 @@ const isBrowser = new Function(
 );
 
 const cl = console.log;
-cl.g = (msg, color = cl.color) => console.group(color, msg);
+cl.g = (msg = "", color = cl.color) => console.group(color, msg);
 cl.ge = (msg, color = cl.color) => console.groupEnd(color, msg);
 cl.cl = (msg, color = cl.color) => console.clear(color, msg);
 cl.er = (msg, color = cl.color) => console.error(color, msg);

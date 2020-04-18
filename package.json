@@ -1,0 +1,6 @@
+{
+  "name": "astaton-console-logger",
+  "version": "1.0.2",
+  "private": false,
+  "main": "main.js"
+}
