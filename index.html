@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Library Test</title>
+  <meta name="description" content="Library Test">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      margin: 0 auto;
+    }
+    div:not(#parent) {
+      border: 1px solid rgba(33, 220, 33);
+      margin: 1rem 0;
+      padding: .3rem;
+      background-color: green;
+      color: white;
+    }
+    input,
+    textarea {
+      margin: .5rem 0;
+    }
+    .reload-button {
+      border: 0;
+      background-color: rgba(33, 220, 33);
+      padding: .6rem .3rem;
+      border-radius: .5rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Is every test working well?</h2>
+  <div id="parent"></div>
+  <input type="text" placeholder="first input box, cursor focused on here"/>
+  <input type="text" placeholder="second input box"/>
+  <textarea class="sample1" placeholder="first resizable textarea"></textarea>
+  <textarea class="sample2" placeholder="second resizable textarea"></textarea>
+  <button type="button" class="reload-button">Reload the page</button>
+  <script>
+    const parent = document.querySelector('#parent');
+
+    const createTag = ({
+      tag, id, classes, text,
+    }) => {
+      const parent = document.createElement(tag);
+      if (id) parent.setAttribute('id', id);
+      if (classes) classes.split(' ').forEach(elem => parent.classList.add(elem));
+      if (text) parent.textContent = text;
+      return parent;
+    };
+
+    const resizeTextarea = () => {
+      const textareas = document.querySelectorAll('textarea');
+      textareas.forEach(textarea => {
+        textarea.addEventListener('keyup', () => {
+          textarea.style.height = 'auto';
+          textarea.style.height = `${20 + textarea.scrollHeight}px`;
+        });
+      });
+    };
+
+    const focusSet = (target) => {
+      if (target) target.querySelector('input').focus();
+    };
+
+    const reloadScreen = () => window.location.reload();
+
+    const capitalize = word => word.charAt(0).toUpperCase() + word.slice(1);
+
+    // 1: create tag
+    const testCreateTag1 = createTag({ tag: 'div' });
+    testCreateTag1.innerText = `tag: ${testCreateTag1.tagName}`;
+    parent.appendChild(testCreateTag1);
+
+    const testCreateTag2 = createTag({ tag: 'div', id: 'second', classes: 'second' });
+    testCreateTag2.innerText = `tag: ${testCreateTag2.tagName}, id: '${testCreateTag2.id}', class: '${testCreateTag2.classList[0]}'`;
+    parent.appendChild(testCreateTag2);
+
+    // 2: resize textarea
+    resizeTextarea();
+
+    // 3: focus on input
+    focusSet(document);
+
+    // 4: reload window
+    document.querySelector('.reload-button').addEventListener('click', () => {
+      reloadScreen();
+    })
+
+    // 5: capitalize
+    text = capitalize('project');
+    const testCapitalize = createTag({ tag: 'div', text: `to capital: ${text}` });
+    parent.appendChild(testCapitalize);
+  </script>
+  </body>
+</html>
