@@ -1,4 +1,4 @@
-# A personal NPM Utility library: vanilla-js-util
+<h1 align="center">Welcome to A personal NPM Utility library: vanilla-js-util 👋</h1>
 
 This npm app helps you to increase vanillaJS app building speed.
 
@@ -61,6 +61,10 @@ import { createTag, resizeTextarea, focusSet, reloadScreen, capitalize } from '@
 3. Commit your changes (git commit -am 'what this commit will fix/add')
 4. Push to the branch (git push origin feature/[chosen-name])
 5. Create a new Pull Request
+
+## Deployment
+
+### ✨ [Test Live Demo](https://shjang7.github.io/2020-04-17-personal-npm-package/)
 
 ## Resources
 
