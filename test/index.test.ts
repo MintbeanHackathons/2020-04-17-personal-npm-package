@@ -7,28 +7,28 @@ describe('countElements', () => {
         expect(result).to.be.a('number');
     });
 
-    it('passing a valid input [1, 2, 3] returns expected output', async () => {
+    it('passing a valid input [1, 2, 3] returns expected output', () => {
         const input = [1, 2, 3];
         const expected = 2;
         const result = countElements(input);
         expect(result).to.be.equal(expected);
     });
 
-    it('passing a valid input [1, 1, 3, 3, 5, 5, 7, 7] returns expected output', async () => {
+    it('passing a valid input [1, 1, 3, 3, 5, 5, 7, 7] returns expected output', () => {
         const input = [1, 1, 3, 3, 5, 5, 7, 7];
         const expected = 0;
         const result = countElements(input);
         expect(result).to.be.equal(expected);
     });
 
-    it('passing a valid input [1, 3, 2, 3, 5, 0] returns expected output', async () => {
+    it('passing a valid input [1, 3, 2, 3, 5, 0] returns expected output', () => {
         const input = [1, 3, 2, 3, 5, 0];
         const expected = 3;
         const result = countElements(input);
         expect(result).to.be.equal(expected);
     });
 
-    it('passing a valid input [1, 1, 2, 2] returns expected output', async () => {
+    it('passing a valid input [1, 1, 2, 2] returns expected output', () => {
         const input = [1, 1, 2, 2];
         const expected = 2;
         const result = countElements(input);
