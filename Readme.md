@@ -1,5 +1,7 @@
 # Random Leetcode Algorithms
 
+![npm bundle size](https://img.shields.io/bundlephobia/min/random-leetcode-algorithms)
+
 A sample of Leetcode algorithms I solved at one time or another using JavaScript.
 
 ## Usage
