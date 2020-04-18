@@ -9,7 +9,7 @@
  * @param {number[]} arr
  * @return {number}
  */
-export function countElements(arr: number[]) {
+const countElements = (arr: number[]) => {
     const mySet = new Set();
     for (let item of arr) {
         mySet.add(item);
@@ -24,7 +24,7 @@ export function countElements(arr: number[]) {
         console.debug('not covered'); // this line will not be covered when you run `npm run coverage`
     }
     return counter;
-}
+};
 
 /**
  * Given an array of strings, group anagrams together.
@@ -40,7 +40,7 @@ export function countElements(arr: number[]) {
  * @param {string[]} strings
  * @return {string[][]}
  */
-export function groupAnagrams(strings: string[]) {
+const groupAnagrams = (strings: string[]) => {
     const out: {
         [key: string]: string[];
     } = {};
@@ -54,4 +54,6 @@ export function groupAnagrams(strings: string[]) {
     }
     // console.debug('out', out, Object.values(out));
     return Object.values(out);
-}
+};
+
+export { countElements, groupAnagrams };
